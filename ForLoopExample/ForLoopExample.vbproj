@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E6B2EC90-E30A-4468-BEE1-F909FE04E72F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ForLoopExample.Module1</StartupObject>
+    <StartupObject>ForLoopExample.ForLoopExample</StartupObject>
     <RootNamespace>ForLoopExample</RootNamespace>
     <AssemblyName>ForLoopExample</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="ForLoopExample.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
